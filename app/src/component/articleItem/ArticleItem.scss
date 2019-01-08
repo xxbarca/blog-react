@@ -1,0 +1,23 @@
+#articleItem {
+    padding: 20px;
+    background: white;
+    margin-bottom: 1px;
+    a {
+        color: #1A1A1A;
+    }
+
+    a:hover {
+        color: #0184FD;
+    }
+    .title {
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 5px;
+    }
+    
+    .introduction {
+        color: #1A1A1A;
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+}

@@ -3,7 +3,7 @@ import './TimeLine.scss';
 class TimeLine extends React.Component{
     render() {
         return (
-            <div>TimeLine</div>
+            <div id='timeLine'>TimeLine</div>
         )
     }
 }

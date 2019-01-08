@@ -5,7 +5,7 @@ import './NavContent.scss'
 class NavContent extends React.Component {
     render() {
         return (
-            <div>
+            <div id='navContent'>
                 NavContent
             </div>
         );

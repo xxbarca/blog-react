@@ -3,7 +3,7 @@ import './Hot.scss';
 class Hot extends React.Component{
     render() {
         return (
-            <div>Hot</div>
+            <div id='hot'>Hot</div>
         )
     }
 }

@@ -1,9 +1,9 @@
 import React from 'react'
-import { Button, Icon } from 'antd'
+import { Button, Icon, Input } from 'antd'
 import { Link, NavLink } from 'react-router-dom'
 
 import './NavTop.scss'
-
+const Search = Input.Search;
 class NavTop extends React.Component {
     constructor(props) {
         super(props)
@@ -32,6 +32,12 @@ class NavTop extends React.Component {
                         </NavLink>
                     </li>
                 </ul>
+                <Search
+                    className='search'
+                    placeholder="搜索"
+                    onSearch={value => console.log(value)}
+                    style={{ width: 300, height: 40, fontSize: 20 }}
+                />
                 <div className='btn'>
                     <Button type="primary" className='login'>
                         <Icon type="login" />登陆

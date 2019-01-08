@@ -5,7 +5,7 @@ import './NavSide.scss'
 class NavSide extends React.Component {
     render() {
         return (
-            <div>
+            <div id="navSide">
                 NavSide
             </div>
         );

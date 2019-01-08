@@ -7,11 +7,11 @@ class Layout extends React.Component {
         return (
             <div id='layout'>
                 <NavTop />
-                <div className='contant'>
-                        {this.props.children}
-                    <NavSide />
+                <div className='content'>
+                    <NavSide />   
+                    {this.props.children}
                 </div>
-                
+                             
             </div>
         );
     }
